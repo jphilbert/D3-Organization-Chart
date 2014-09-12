@@ -1,0 +1,96 @@
+/* This Layout yields a header, footer, and left & right side bars.
+   The footer is fixed to the bottom of the document and not the window.
+   Only the center container resizes.
+*/
+
+body {
+	font: 15px/20px Arial, sans-serif;
+	height: 100%;
+	border: 0;
+}
+
+html, body {
+    font: 15px/20px Arial, sans-serif;
+    margin:0;
+    padding:0;
+    border:0; 
+    height:100%; 
+    min-height:100%;
+    line-height: normal;
+ }
+
+.wrapper {
+	width: 100%;
+	/* min-width: 10px; */
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* ------------------------------------------------------------
+   Header
+   ------------------------------------------------------------ */
+.header {
+	/* height: 120px; */
+	/* background: #FFE680; */
+	padding: 20px 20px 10px 20px;
+}
+
+
+
+/* ------------------------------------------------------------
+   Middle
+   ------------------------------------------------------------ */
+.middle {
+	width: 100%;
+	padding: 0 0 100px; 	  /* = Footer Size */
+	position: relative;
+	background: aquamarine;
+}
+
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.content {
+    padding: 0 300px 0 10px;	  /* Adjust for more padding*/
+    background: white;
+}
+
+
+/* ------------------------------------------------------------
+   Left Sidebar
+   ------------------------------------------------------------ */
+.left-sidebar {
+	float: left;
+	width: 10px;
+	margin-left: -100%;
+	position: relative;
+	background: #B5E3FF;
+}
+
+
+/* ------------------------------------------------------------
+   Right Sidebar
+   ------------------------------------------------------------ */
+.right-sidebar {
+	float: left;
+	width: 300px;
+	margin-left: -300px;
+	position: relative;
+	/* background: #FFACAA; */
+}
+
+
+/* ------------------------------------------------------------
+   Footer
+   ------------------------------------------------------------ */
+.footer {
+	/* margin: -120px auto 0; */
+	/* height: 120px; */
+	/* background: #BFF08E; */
+	bottom: 0;
+	position: fixed;
+}
