@@ -9,10 +9,6 @@ Once loaded, one particular employee will be shown with their superiors and subo
 
 For fun, use the **animate** button
 
-## Key features
-* Support for employee information
-* Interactive
-* 
 ## Installing / Using
 This demo ultizes several packages. Currently they should be installed in ../../common/script/<package>/ or simply change the paths in the header. The packages are:
 * [jquery](http://jquery.com/) 
