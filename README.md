@@ -1,4 +1,4 @@
-D3-Organization-Chart
+D3.js Organization Chart
 =====================
 
 This is complete, though simple demonstration of an interactive web organization chart.
@@ -10,7 +10,7 @@ Once loaded, one particular employee will be shown with their superiors and subo
 For fun, use the **animate** button
 
 ## Installing / Using
-This demo ultizes several packages. Currently they should be installed in ../../common/script/<package>/ or simply change the paths in the header. The packages are:
+This demo utilizes several packages. Currently they should be installed in ../../common/script/<package>/ or simply change the paths in the header. The packages are:
 * [jquery](http://jquery.com/) 
 * [jquery UI](http://jqueryui.com/)
 * [underscore](http://underscorejs.org/) 
