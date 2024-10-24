@@ -7,7 +7,7 @@ The HTML, CSS, JavaScript, and sample data are all included here for running on 
 
 
 
-# How To Use
+## How To Use
 Upon first load, the data is fully loaded (as its not very large) and initially shows our fictitious CEO, `Deborah Battle`, and her subordinates. Changing the `Initial Node` (drop-down with auto-complete) will reset the diagram showing only that employee and their direct connections. 
 
 ![ui_detail.png](Media/ui_detail.png "UI")
@@ -22,12 +22,12 @@ Turning on **Animate** via the bottom button, the network will periodically grow
 
 
 
-# Data
+## Data
 The data has been auto generated for this demonstration, however was structured to be user friendly. Specifically, data can be extracted via MS Active Directory, parsed, and formatted into CSV for use. At the time, this was not *terribly* difficult yet it inspired me to detail the steps [on my site here](https://www.john-hilbert.com/portfolio/quick-and-easy-organization-charts/). However, since then, Microsoft has embraced the cloud and consumer interfacing with AD to the extent that this is trivial in Excel for a moderately experienced analyst.
 
 
 
-# Dependencies 
+## Dependencies 
 * [jquery](http://jquery.com/) 
 * [jquery UI](http://jqueryui.com/)
 * [underscore](http://underscorejs.org/) 
@@ -35,5 +35,5 @@ The data has been auto generated for this demonstration, however was structured 
 * [queue.js](http://github.com/mbostock/queue)
 * [select2.js](http://ivaynberg.github.io/select2/)
 
-> [!TODO]
+> ### :construction: TODO :construction:
 > Add version numbers currently being hosted
