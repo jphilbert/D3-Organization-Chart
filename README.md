@@ -35,5 +35,5 @@ The data has been auto generated for this demonstration, however was structured 
 * [queue.js](http://github.com/mbostock/queue)
 * [select2.js](http://ivaynberg.github.io/select2/)
 
-> ### :construction: TODO :construction:
+> ### :memo: TODO
 > Add version numbers currently being hosted
