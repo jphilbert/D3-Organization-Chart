@@ -1,5 +1,5 @@
-# D3.js Organization Chart
-This is a simple proof-of-concept of an interactive, web-bases, open-source organization chart made in 2014 using d3.
+# Organization Chart Using D3.js 
+This is a simple proof-of-concept of an interactive, web-base, open-source organization chart made in 2014 using D3.
 
 ![chart_animation.gif](Media/chart_animation.gif "Animated Demo")
 
@@ -28,12 +28,9 @@ The data has been auto generated for this demonstration, however was structured 
 
 
 ## Dependencies 
-* [jquery](http://jquery.com/) 
-* [jquery UI](http://jqueryui.com/)
-* [underscore](http://underscorejs.org/) 
-* [d3.js](http://d3js.org/)
-* [queue.js](http://github.com/mbostock/queue)
-* [select2.js](http://ivaynberg.github.io/select2/)
-
-> ### :memo: TODO
-> Add version numbers currently being hosted
+* [jquery](https://jquery.com/) [2.0.3]
+* [jquery UI](https://jqueryui.com/)
+* [underscore](https://underscorejs.org/) [1.6.0]
+* [d3.js](https://d3js.org/) [3.4.8]
+* [queue.js](https://github.com/mbostock/queue) [1.0.7]
+* [select2.js](https://ivaynberg.github.io/select2/) [3.4.8]
